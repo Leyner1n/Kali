@@ -17,7 +17,3 @@ is's mean "/home/username/" (because for Linux u need to explain full path)
 **"<< or >>"** - append output 
 
 **"-i"** - gives interactive to use command 
-
-
-
-

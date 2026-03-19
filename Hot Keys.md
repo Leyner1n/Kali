@@ -3,4 +3,3 @@
 **Tab** - Chose any variants
 **Ctrl+C** - Stop the process 
 **Ctrl+D** - Close Terminal
-
