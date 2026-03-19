@@ -35,7 +35,8 @@
               "title": "Hot Keys"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Commands.md",
+                "file": "Hot Keys.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Commands"
+              "title": "Backlinks for Hot Keys"
             }
           },
           {
@@ -128,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Commands.md",
+                "file": "Hot Keys.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Commands"
+              "title": "Outgoing links from Hot Keys"
             }
           },
           {
@@ -171,13 +172,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Commands.md",
+                "file": "Hot Keys.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Commands"
+              "title": "Outline of Hot Keys"
             }
           }
         ]
@@ -198,10 +199,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "4f2aa39b0aaa6604",
+  "active": "867e9cde446a7367",
   "lastOpenFiles": [
-    "Hot Keys.md",
     "Commands.md",
+    "Hot Keys.md",
     "File system.md"
   ]
 }
