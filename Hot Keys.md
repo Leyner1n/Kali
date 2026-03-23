@@ -8,3 +8,5 @@
 
 **Ctrl+D** - Close Terminal
 
+![[Screenshot 2026-03-23 at 1.54.29 AM.png]]
+
