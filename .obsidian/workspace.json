@@ -13,12 +13,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commands.md",
+                "file": "Security.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commands"
+              "title": "Security"
+            }
+          },
+          {
+            "id": "7a1f2669a6fe2500",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screenshots/Screenshot 2026-03-23 at 1.29.06 AM.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot 2026-03-23 at 1.29.06 AM"
+            }
+          },
+          {
+            "id": "f1a3f470554a75a8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Screenshots/Screenshot 2026-03-23 at 3.09.09 AM.png"
+              },
+              "icon": "lucide-image",
+              "title": "Screenshot 2026-03-23 at 3.09.09 AM"
             }
           },
           {
@@ -63,7 +87,8 @@
               "title": "Security"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,13 +141,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 255.5
   },
   "right": {
     "id": "0133118ba9dcb70f",
@@ -227,21 +250,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "3a7978e82219e54d",
+  "active": "f1a3f470554a75a8",
   "lastOpenFiles": [
-    "File system.md",
+    "Screenshots/Screenshot 2026-03-23 at 2.48.50 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 1.29.06 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 1.54.29 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 2.18.00 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 2.47.08 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 3.09.09 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 3.30.03 AM.png",
     "Commands.md",
-    "Screenshot 2026-03-23 at 3.09.09 AM.png",
-    "Hot Keys.md",
+    "Screenshots/Screenshot 2026-03-23 at 3.30.56 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 2.49.03 AM.png",
+    "Screenshots/Screenshot 2026-03-23 at 2.42.39 AM.png",
     "Security.md",
-    "Screenshot 2026-03-23 at 2.49.03 AM.png",
-    "Screenshot 2026-03-23 at 2.48.50 AM.png",
-    "Screenshot 2026-03-23 at 2.47.08 AM.png",
-    "Screenshot 2026-03-23 at 2.42.39 AM.png",
-    "Screenshot 2026-03-23 at 2.18.00 AM.png",
-    "Screenshot 2026-03-23 at 1.54.29 AM.png",
-    "Linux.md",
-    "Screenshot 2026-03-23 at 1.29.06 AM.png",
-    "Untitled"
+    "Screenshots",
+    "Untitled.canvas",
+    "File system.md",
+    "Hot Keys.md",
+    "Linux.md"
   ]
 }
