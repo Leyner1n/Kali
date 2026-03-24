@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d9ce165a473d435b","x":-175,"y":-60,"width":160,"height":60,"type":"text","text":"# Compress"},
+		{"id":"df6e00051c495548","x":255,"y":-60,"width":140,"height":60,"type":"text","text":"# Archive"},
+		{"id":"782b4765c70610ff","x":30,"y":-180,"width":195,"height":60,"type":"text","text":"# File Formats"},
+		{"id":"38201ea133239be1","x":-220,"y":40,"width":250,"height":88,"type":"text","text":"- Reduce data capacity\n- Don't group files"},
+		{"id":"446ff687af385c77","x":200,"y":40,"width":250,"height":118,"type":"text","text":"- only packaging \n- data capacity may increase(увеличится )"}
+	],
+	"edges":[
+		{"id":"5f90409268ad1605","fromNode":"782b4765c70610ff","fromSide":"right","toNode":"df6e00051c495548","toSide":"top"},
+		{"id":"cf2ef337dc0b1b0f","fromNode":"782b4765c70610ff","fromSide":"left","toNode":"d9ce165a473d435b","toSide":"top"},
+		{"id":"fbd528af433bab43","fromNode":"d9ce165a473d435b","fromSide":"bottom","toNode":"38201ea133239be1","toSide":"top"},
+		{"id":"9f720620a62f084e","fromNode":"df6e00051c495548","fromSide":"bottom","toNode":"446ff687af385c77","toSide":"top"}
+	]
+}

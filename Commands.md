@@ -1,11 +1,8 @@
+# [[Directory and File Management]]
 
-**ls** - Show's files in directory 
 
 **cd** - Move to (directory)
 
-**mv** - Move 
-
-**rm** - Delete file 
 
 **cat** - Command to read and output file contents
 
@@ -17,7 +14,7 @@
 -u = removing repetitions) 
 ![[Screenshot 2026-03-23 at 1.29.06 AM.png]]
 
-## sudo {
+## sudo 
 	sudo - Granting root rights for one command
 	
 	su - by default switch to root (if u have password to root)
@@ -27,7 +24,7 @@
 
 	sudo -l - check ur rights
 
-## fdisk  {
+## fdisk  
 
 	sudo fdisk (options) (disk)
 	
@@ -37,7 +34,7 @@
 
 
 
-# User {
+# User 
 **id** - shows who r u and ==what kind of groups u have==(**"groups"**)
 ![[Screenshot 2026-03-23 at 2.18.00 AM.png]]
 
@@ -54,8 +51,7 @@
 **userdel** - Delete user
 ![[Screenshot 2026-03-23 at 3.09.09 AM.png]]
 
-# Tools  {
-
+# Tools  
 
 **"< or >"**  - Output redirection
 **"<< or >>"** - Append output 
