@@ -1,19 +1,5 @@
 # [[Directory and File Management]]
 
-
-**cd** - Move to (directory)
-
-
-**cat** - Command to read and output file contents
-
-**echo** - Show in terminal 
-
-**grep**  - Search txt (grep "word")
-
-**sort** - sorting (-n = by numbers, -r = reverse, 
--u = removing repetitions) 
-![[Screenshot 2026-03-23 at 1.29.06 AM.png]]
-
 ## sudo 
 	sudo - Granting root rights for one command
 	

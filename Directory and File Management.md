@@ -1,17 +1,17 @@
 
 ## ==*Files Management*==
 
-#### Represent (Предоставление)
+### Represent (Предоставление)
 	ls - shows files in directory
 
 	KEYS:
 		-l -> detailed info
 		-a -> all files + hidden(.cfg, .git)
 
-#### Permission (Разрешения)
+### Permission (Разрешения)
 	chmod [options] [file or folder]
 
-#### Create
+### Create
 	touch (date yyyy/mm/dd/hh/mm) [new_file]
 	
 	echo -> using to show text in terminal or add txt to file 
@@ -19,7 +19,7 @@
 			- "\n" - new line
 			- "\t" - tabulation 
 
-#### Delete 
+### Delete 
 	rm -> deleting option
 		rm [option] file
 
@@ -31,7 +31,7 @@
 
 		(You cat folding this commands)
 
-#### Copying/Removing/Renaming
+### Copying/Removing/Renaming
 
 	cp -> coping info
 		cp [option] [where to copy]
@@ -40,7 +40,7 @@
 	mv -> moving info
 		mw [option] [where to move]]
 
-#### Search
+### Search
 
 	locate -> fast search
 
@@ -137,23 +137,23 @@
 
 ## ==*Directory Management*==
 
-#### Display 
+### Display 
 	ls - shows files in directory
 
 	KEYS:
 		-l -> detailed info
 		-a -> all files + hidden(.cfg, .git)
 
-#### Change the current one
-	cd [directory_path]
+**Change the current one**
+	`cd [directory_path]`
 
-#### Print the current now
-	pwd(Print Working Directory) 
+ **Print the current now**
+	`pwd(Print Working Directory)`
 
 	Options:
 		"-L" -> Logical Path (/home/user/Documents)(symilink)
 		"-P" -> Physical (/mnt/storage/Docs)
-#### Create
+### Create
 
 	mkdir [dirrctory_name]
 
@@ -164,7 +164,7 @@
 		"-m MODE" -> setting access rights
 			Example:
 				"mkdir -m 755 myfolder"
-#### Delete
+### Delete
 	rm [file]
 
 	Options:
@@ -173,7 +173,7 @@
 		"-r(R)" - recursive (all directory)
 		"-v" - verbose (what was deleted)
 
-#### Copy/Remove/Rename
+### Copy/Remove/Rename
 	cp -> coping info
 		cp [option] [where to copy]
 		cp [file] [file whith another name]
@@ -181,7 +181,7 @@
 	mv -> moving info
 		mw [option] [where to move]]
 
-#### Mounting
+### Mounting
 	mount [dir0] [dir1 to dir0]
 	Options:
 		"-t" -> select the file system type
@@ -201,13 +201,107 @@
 		"-l" -> lazy umount (umount FS when it is free)
 		"-v" -> verbose
 
-# ==*Text Files*==
-#### Display
+## ==*Text Files*==
+### Display
+	cat - command for create/viewing/combine(объеденять) files
+		cat [file] - show
+		cat > [file] - create (Ctrl+D = Save)
+		cat >> [file] - add text
+			Options: 
+				"-n" -> numver each line
+				"-b" -> number not-empty lines
+				"-s" -> kill empty lines
 
-#### Fast Paste
+	head/tail [file] - show the beginning/ending of the file 
+		Options:
+			"-n [num]" -> how many lines you want to see
+			"-c [num]" -> how many bytes of infomation you want to see
 
-#### Editors
+### Fast Paste
+	echo - print/write text 
+	Usage Option:
+		1. echo [word] -> print [word] in terminal
+		2. echo [word] > [file] -> overwtite file
+		3. echo [word] >> [file] -> add [word] to the end of file
+		4. echo [variable] -> print variable 
+	Options:
+		"-n" -> whithout lines breaks
+		"-e" -> switch off special symbol
+			Sample:
+				"-n", "-t" 
+				
+### Editors
+	vim - strong graphic editor 
+		it can create/eddit files
+		Usage Variables:
+			1. vim [non-existent_file] -> create file
+			2. vim [existen_file] -> edid mode
+###### **How To Use ?... [[Vim]]** 
 
-#### Sort
+	nano - simply than Vim (better for beginners)
+	Usage Variables:
+		1. nano [non-existent_file] -> create file
+		2. nano [existen_file] -> edid mode
+###### **How To Use ?... [[Nano]]** 
 
-#### Search
+### Sort
+	sort [option] [file]
+	Example:
+		sort [file] -> sort by alphabet
+		sort -t ":" -k 2 -n -u [file]
+	Options:
+		"-r" -> reverse
+		"-n" -> sort by number
+		"-k" -> sort by column
+		"-t" -> sort by [char]
+		"-u" -> sort by uniqueness
+		"-f" -> ignore the word case(регистр)
+		"-" -> ignore the extra spaces
+
+	uniq [option] [file] - rather useful tool for "sort", it using to sort by uniqueness but more options then "sort -u [file]"
+	Example:
+		sort [file] | uniq [option]
+	Options: 
+		"-c" -> repeat counter
+		"-d" -> show only repeating lines
+		"-u" -> show only uniqueness lines
+### Search
+
+**grep** - is a strong command to search or print according to a certain(по определенному) pattern 
+
+Decoding -> g/re/p - Global/Regular Expression/Pattern
+
+	grep [word] [file.txt] - Simply Variable
+	Options: 
+		"-i" -> ignore the word case
+		"-v" -> print NUMBERS of LINES whitout template ("-v" [template])
+		"-n" -> show line numbers
+		"-c" -> line counter
+		"-L" - print FILES whitout template ("-L" [template]) -> [files]
+		"-l" - print FILES WITH template -> [files]
+		"-r" - recursive search in directory -> [files]
+		"-w" -> print lines with [word]
+		"-o" -> print only [word]
+		"--color" -> highlight template
+
+###### Grep Supports [[MetaCharacters]]
+
+	awk - text edit bu columns (search/edit) 
+	Syntax: awk '{print}' file.txt (will print like "cat")
+
+	Variables:
+		"$(number)" -> (number) column
+		"$0" -> all string 
+		"NF" -> column count
+
+... i''ll write about [[awk]] later, this topic very extensive
+
+	cut [option] [file]
+	Options: 
+		-c [num-to-num]" -> cut by char range 
+		
+		"-d" - spliter
+		"-d" - the numbering 
+	
+		"cut -d [char] -f [num] [file/path]"
+	
